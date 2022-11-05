@@ -1,0 +1,31 @@
+.blog {
+    padding: 2rem;
+}
+
+.blog h2,
+.contactus h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    color: #000;
+}
+
+.blogPost {
+    display: flex;
+    gap: 15px;
+}
+
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: #000;
+}
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background: antiquewhite;
+}
